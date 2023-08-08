@@ -11,7 +11,7 @@ from streamlit_lottie import st_lottie
 from page.recommendations import get_personalized_recommendations
 from page.recipes import get_recipe_suggestions
 
-openai.api_key = 'INSERT OPEN_AI KEY'
+openai.api_key = 'INSERT OPENAI API KEY'
 
 
 model = load_model("C:/Users/saimt/OneDrive/Desktop/Food Calorie App/Food-Calorie-App/FAV.h5")
