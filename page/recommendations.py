@@ -1,7 +1,7 @@
 
 import openai
 
-openai.api_key = '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'
+openai.api_key = 'INSERT OPENAI API KEY'
 
 
 def get_personalized_recommendations(user_preferences, dietary_restrictions, health_goals):
